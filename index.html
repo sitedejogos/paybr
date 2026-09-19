@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jogos online grátis para jogar direto no navegador.">
+  <title>GameZone — Jogos Online</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#0b1020;color:#fff}
+    header{padding:22px 6%;display:flex;justify-content:space-between;align-items:center;background:#10172d;position:sticky;top:0}
+    .logo{font-size:25px;font-weight:800}.logo span{color:#7c5cff}
+    nav a{color:#ddd;text-decoration:none;margin-left:20px}
+    .hero{padding:70px 6%;text-align:center;background:linear-gradient(135deg,#111a38,#261454)}
+    .hero h1{font-size:clamp(36px,7vw,70px);margin:0 0 15px}.hero p{color:#cbd0e0;font-size:18px}
+    .btn{display:inline-block;margin-top:20px;padding:14px 24px;background:#7c5cff;color:white;text-decoration:none;border-radius:12px;font-weight:700}
+    main{padding:40px 6%}.title{display:flex;justify-content:space-between;align-items:center}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;margin-top:25px}
+    .card{background:#151d35;border:1px solid #252f50;border-radius:18px;padding:20px;transition:.2s}
+    .card:hover{transform:translateY(-4px);border-color:#7c5cff}
+    .icon{height:130px;border-radius:14px;display:grid;place-items:center;font-size:55px;background:linear-gradient(135deg,#202b4d,#38206b)}
+    .card h3{margin-bottom:8px}.card p{color:#aeb6ca}.play{display:block;text-align:center;padding:11px;border-radius:10px;background:#242f50;color:#fff;text-decoration:none}
+    .ad{margin:35px 0;padding:25px;text-align:center;border:1px dashed #475273;color:#8992aa;border-radius:14px}
+    footer{padding:30px 6%;text-align:center;color:#8992aa;background:#080c18}
+  </style>
+</head>
+<body>
+<header><div class="logo">Game<span>Zone</span></div><nav><a href="#jogos">Jogos</a><a href="#sobre">Sobre</a></nav></header>
+<section class="hero"><h1>Jogue. Divirta-se. Repita.</h1><p>Uma coleção de jogos rápidos para jogar direto no navegador.</p><a class="btn" href="#jogos">Começar a jogar</a></section>
+<main id="jogos">
+  <div class="title"><h2>🎮 Jogos populares</h2></div>
+  <div class="grid">
+    <article class="card"><div class="icon">🧩</div><h3>Quebra-Cabeça</h3><p>Teste sua lógica e encontre a solução.</p><a class="play" href="#" onclick="alert('Aqui você pode colocar o seu jogo!');return false;">Jogar</a></article>
+    <article class="card"><div class="icon">🚀</div><h3>Space Runner</h3><p>Desvie dos obstáculos e faça a maior pontuação.</p><a class="play" href="#" onclick="alert('Aqui você pode colocar o seu jogo!');return false;">Jogar</a></article>
+    <article class="card"><div class="icon">🏎️</div><h3>Speed Race</h3><p>Prepare-se para uma corrida rápida.</p><a class="play" href="#" onclick="alert('Aqui você pode colocar o seu jogo!');return false;">Jogar</a></article>
+    <article class="card"><div class="icon">🧠</div><h3>Desafio Mental</h3><p>Resolva desafios e bata seu recorde.</p><a class="play" href="#" onclick="alert('Aqui você pode colocar o seu jogo!');return false;">Jogar</a></article>
+  </div>
+  <div class="ad">ESPAÇO RESERVADO PARA ANÚCIOS — Google AdSense</div>
+  <section id="sobre"><h2>Sobre o GameZone</h2><p>Site demonstrativo preparado para receber jogos, conteúdo e espaços de publicidade.</p></section>
+</main>
+<footer>© 2026 GameZone • Todos os direitos reservados</footer>
+</body>
+</html>
